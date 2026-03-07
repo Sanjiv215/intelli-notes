@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelli-Notes</title>
+    <link rel="stylesheet" href="contact.css">
+
+</head>
+
+<body>
+
+    <!-- __________Header_________ -->
+
+    <div id="header">
+        <a href="index.html"><img src="ist.svg" alt="IST"></a>
+
+        <div id="head_content">
+            <input type="search" id="search" placeholder="Search...">
+            <div id="suggestions"></div>
+
+            <input type="button" id="contact" value="Contact us">
+        </div>
+
+    </div>
+
+    <!-- __________Navbar_________ -->
+
+    <div id="navbar">
+        <a class="link_remove" href="sem1.html">
+            <h2 class="nav_content">HTML</h2>
+        </a>
+        <a class="link_remove" href="sem1.html">
+            <h2 class="nav_content">CSS</h2>
+        </a>
+        <a class="link_remove" href="sem1.html">
+            <h2 class="nav_content">JAVASCRIPT</h2>
+        </a>
+        <a class="link_remove" href="sem1.html">
+            <h2 class="nav_content">PYTHON</h2>
+        </a>
+        <a class="link_remove" href="sem1.html">
+            <h2 class="nav_content">MATHS</h2>
+        </a>
+        <a class="link_remove" href="sem1.html">
+            <h2 class="nav_content">PERSONALITY-DEVELOPMENT</h2>
+        </a>
+        <a class="link_remove" href="sem1.html">
+            <h2 class="nav_content">YOGA</h2>
+        </a>
+        <a class="link_remove" href="sem1.html">
+            <h2 class="nav_content">UHV</h2>
+        </a>
+        <a class="link_remove" href="sem1.html">
+            <h2 class="nav_content">EVS</h2>
+        </a>
+
+    </div>
+
+
+    <!-- __________Contact Body__________ -->
+
+
+    <div id="container">
+        <h1>Lets Talk</h1>
+
+        <div id="cont_body">
+            <div id="box1">
+                <div id="names">
+                    <div id="fname">
+                        <p>First name</p>
+                        <input type="text" name="fname" class="input">
+                    </div>
+                    <div id="lname">
+                        <p>Last name</p>
+                        <input type="text" name="lname" class="input">
+                    </div>
+                </div>
+                <div id="email">
+                    <div id="sub-email">
+                        <p>Email Address
+                        </p>
+                        <input type="email" name="email" class="inp_email">
+                    </div>
+
+                </div>
+
+                <div id="message">
+                    <div id="sub-message">
+                        <p>Message</p>
+                        <textarea name="message" id="inp_message"></textarea>
+                    </div>
+                </div>
+
+                <div id="submit">
+                    <input type="submit" value="Send" id="inp_submit">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- __________Background Video__________ -->
+    <div class="overlay"></div>
+
+    <video class="header-video" autoplay="" muted="" loop="" playsinline="" type="video/mp4"
+        src="https://intellipaat.com/course-image/2025/01/ist-header-video.mp4">
+    </video>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+
+</html>

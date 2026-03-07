@@ -1,0 +1,280 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#header {
+    background-color: #061A2F;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#head_content {
+    width: 40%;
+}
+
+#search {
+    padding: 0px 0px 0px 10px;
+    width: 60%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px solid black;
+}
+
+
+#contact {
+
+    border-radius: 4px;
+    background: linear-gradient(90deg, #371AB1 0%, #D37138 100%);
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 108px;
+    margin-left: 12px;
+    border-radius: 10px;
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+
+.link_remove {
+    text-decoration: none;
+}
+
+
+
+#navbar {
+    background-color: #061A2F;
+    width: 100%;
+    height: 4vh;
+
+    border-radius: 5px;
+    margin: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.nav_content {
+    font-size: 12px;
+    margin: 0px 20px 0px 20px;
+    color: white;
+}
+
+
+#suggestions {
+    width: 24%;
+    max-height: 300px;
+    overflow-y: auto;
+    background: rgb(252, 251, 251);
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px 1px black;
+    position: absolute;
+    margin-top: 5px;
+    display: none;
+    z-index: 10;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+.suggestion-item:hover {
+    background: #f0f0f0;
+}
+
+h1 {
+    margin: 20px 0px 0px 0px;
+    font-size: 40px;
+    color: white;
+}
+
+
+#container {
+
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    width: 50%;
+    height: 80vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gray;
+}
+
+
+
+#cont_body {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+}
+
+#box1 {
+    width: 100%;
+    margin: 0px;
+    height: 75vh;
+
+}
+
+
+p {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+#fname {
+    width: 50%;
+
+}
+
+#lname {
+    width: 50%;
+
+
+}
+
+#names {
+    margin: 40px 0px 0px 15px;
+    display: flex;
+    height: 15%;
+
+    justify-content: flex-start;
+}
+
+#email {
+    margin: 40px 0px 0px 15px;
+    display: flex;
+    width: 93%;
+
+    justify-content: flex-start;
+}
+
+#message {
+    margin: 40px 0px 0px 15px;
+
+
+    display: flex;
+    width: 93%;
+    justify-content: flex-start;
+}
+
+#submit {
+    margin: 40px 0px 0px 15px;
+    display: flex;
+    width: 95%;
+
+    justify-content: flex-start;
+}
+
+
+
+.input {
+    width: 90%;
+
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgba(6, 26, 47, 0.3);
+
+    color: white;
+
+    border: 1px solid black;
+}
+
+.inp_email {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(6, 26, 47, 0.3);
+
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+#sub-email {
+    width: 100%;
+}
+
+
+#inp_message {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(6, 26, 47, 0.3);
+
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+#sub-message {
+    width: 100%;
+}
+
+#inp_submit {
+    background: linear-gradient(90deg, #371AB1 0%, #D37138 100%);
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+
+    height: 40px;
+    border-radius: 5px;
+    /* border:1px solid black; */
+    font-size: 15px;
+
+}
+
+
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(65, 70, 104, 0.5);
+    z-index: -1;
+}

@@ -1,0 +1,295 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* ________Header________ */
+#header {
+    background-color: #061A2F;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#head_content {
+    width: 40%;
+}
+
+#search {
+    padding: 0px 0px 0px 10px;
+    width: 60%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px solid black;
+}
+
+
+#contact {
+
+    border-radius: 4px;
+    background: linear-gradient(90deg, #371AB1 0%, #D37138 100%);
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 108px;
+    margin-left: 12px;
+    border-radius: 10px;
+    border: 0px solid black;
+    cursor: pointer;
+}
+
+/* ________Navbar________ */
+
+.link_remove {
+    text-decoration: none;
+}
+
+.link_remove1 {
+    text-decoration: none;
+    color: white;
+}
+
+
+#navbar {
+    background-color: #061A2F;
+    width: 100%;
+    height: 4vh;
+
+    border-radius: 5px;
+    margin: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.nav_content {
+    font-size: 12px;
+    margin: 0px 20px 0px 20px;
+    color: white;
+}
+
+
+/* ________Body of Page________ */
+
+#content_container {
+    width: 70%;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#content {
+
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 45px;
+    justify-content: center;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+
+    margin: 40px 30px 0px 30px;
+    background-color: orange;
+
+    border-radius: 50%;
+}
+
+
+#content_para {
+    font-size: 23px;
+    color: white;
+
+}
+
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -3;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(65, 70, 104, 0.5);
+    z-index: -1;
+}
+
+
+/* ________Semester Container________ */
+
+
+#subject_container {
+    background: #061a2f;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 0px 50px 60px #061A2F;
+}
+
+.subjects {
+    width: 40%;
+    color: red;
+    margin: 10px 30px 10px 30px;
+    height: 10vh;
+    border-radius: 40px;
+    background-color: #061A2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkgray;
+    box-shadow: 0px 0px 1px 1px darkgray;
+}
+
+/* ________Search________ */
+
+#suggestions {
+    width: 24%;
+    max-height: 300px;
+    overflow-y: auto;
+    background: rgb(252, 251, 251);
+    border-radius: 8px;
+    box-shadow: 0px 0px 1px 1px black;
+    position: absolute;
+    margin-top: 5px;
+    display: none;
+    z-index: 10;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+.suggestion-item:hover {
+    background: #f0f0f0;
+}
+
+
+/* ________Responsive________ */
+
+
+
+
+@media (max-width: 1350px) {
+
+    #content_container {
+        width: 100%;
+        height: 70vh;
+    }
+
+    #content {
+        font-size: 38px;
+        height: 10vh;
+    }
+
+    #content_para {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #header {
+        width: 100%;
+
+    }
+
+    #head_content {
+        width: 60%;
+    }
+
+    #content_container {
+        width: 80%;
+        height: 60vh;
+        margin: 0px;
+    }
+
+    #content {
+        font-size: 30px;
+        height: 8vh;
+    }
+
+    #content_para {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 800px) {
+    #content_container {
+        width: 100%;
+        height: 50vh;
+        margin: 0px
+    }
+
+    #content {
+        font-size: 22px;
+        height: 6vh;
+    }
+
+    #content_para {
+        font-size: 15px;
+    }
+
+    .subjects {
+        width: 60%;
+    }
+}
+
+@media (max-width: 700px) {
+    #content_container {
+        width: 100%;
+        height: 50vh;
+        margin: 0px;
+    }
+
+    #content {
+        font-size: 23px;
+        height: 6vh;
+    }
+
+    #content_para {
+        font-size: 13px;
+    }
+}
