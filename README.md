@@ -1,150 +1,64 @@
-# 📚 Intelli Notes
+# 📚 Intelli Notes: Academic Study Hub
 
-> A modern web platform that organizes academic notes and study resources in one place, making learning simpler, faster, and more accessible for students.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-intelli--notes--psi.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://intelli-notes-psi.vercel.app/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-🌐 **Live Demo:** https://intelli-notes-psi.vercel.app/
+> 🌐 **Live Website:** [https://intelli-notes-psi.vercel.app/](https://intelli-notes-psi.vercel.app/)
 
----
-
-# 📖 About
-
-**Intelli Notes** is a lightweight educational website built to help students access semester-wise notes, study materials, and useful resources through a clean and responsive interface.
-
-The project focuses on providing an organized learning experience where users can quickly browse subjects, download notes, and navigate academic content with ease.
+**Intelli Notes** is a responsive educational repository platform designed to make academic resources, lecture notes, and study guides instantly accessible for computer science students.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-* 📚 Semester-wise Notes
-* 📄 Study Material Repository
-* 🔍 Simple & Easy Navigation
-* 📱 Fully Responsive Design
-* ⚡ Fast Loading Performance
-* 🎨 Clean User Interface
-* 📂 Organized Learning Resources
-* 🌐 Deployed on Vercel
+- 📚 **Semester-Wise Navigation**: Structured classification for 1st and 2nd semester courses.
+- 📄 **Material Repository**: Integrated PDF download and viewer channels.
+- 📱 **Adaptive UI**: Responsive layouts optimized across mobile, tablet, and desktop viewports.
+- ⚡ **Zero-Dependency Core**: Lightweight static architecture with near-instant Time to First Byte (TTFB).
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-* HTML5
-* CSS3
-* JavaScript
+- **Markup**: Semantic HTML5
+- **Styles**: Custom CSS3 (Flexbox & Grid layout engines)
+- **Scripting**: Vanilla ECMAScript (DOM manipulation)
+- **Deployment**: Vercel CDN
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 intelli-notes/
-│
-├── index.html
-├── sem1.html
-├── sem2.html
-├── contact.html
-├── style.css
-├── sem1.css
-├── sem2.css
-├── contact.css
-├── script.js
-├── contact.js
-├── assets/
-├── images/
-├── PDFs/
+├── index.html       # Landing page & subject overview
+├── sem1.html        # Semester 1 resources
+├── sem2.html        # Semester 2 resources
+├── contact.html     # Contact form & feedback
+├── style.css        # Core stylesheet
+├── script.js        # Interactive UI controls
+├── assets/          # Media, branding & icons
+├── PDFs/            # Curated study resources
+├── LICENSE          # MIT License
 └── README.md
 ```
 
 ---
 
-# 🚀 Getting Started
-
-## Clone the Repository
+## 🚀 Local Development
 
 ```bash
 git clone https://github.com/Sanjiv215/intelli-notes.git
-```
-
-```bash
 cd intelli-notes
-```
-
-## Run Locally
-
-Simply open **index.html** in your browser.
-
-Or use **VS Code Live Server**:
-
-```text
-Right Click → Open with Live Server
+# Open index.html directly in your preferred browser
+open index.html
 ```
 
 ---
 
-# 🌍 Live Website
+## 📄 License
 
-**https://intelli-notes-psi.vercel.app/**
-
----
-
-# 📑 Website Sections
-
-* Home
-* Semester 1 Notes
-* Semester 2 Notes
-* Contact
-* Study Resources
-
----
-
-# 🎯 Project Goals
-
-* Simplify access to academic notes
-* Organize learning materials efficiently
-* Improve the student learning experience
-* Provide a responsive interface across all devices
-
----
-
-# 🚀 Future Improvements
-
-* User Authentication
-* Search Functionality
-* Notes Upload Portal
-* PDF Viewer
-* Download Analytics
-* Bookmark Favourite Notes
-* Dark Mode
-* Backend Integration
-* Cloud Storage Support
-
----
-
-# 🤝 Contributing
-
-Contributions are always welcome!
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push your branch
-5. Open a Pull Request
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-# 👨‍💻 Developed By
-
-**Sanjiv Prasad**
-
-GitHub: https://github.com/Sanjiv215
-
----
-
-⭐ If you found this project useful, consider giving it a star to support the project!
+Distributed under the [MIT License](LICENSE). Copyright (c) 2026 Sanjiv Prasad.
